@@ -1,0 +1,55 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f2f1;
+}
+
+#cabecalho {
+    background-color: #009246;
+}
+
+.fonts {
+    font-family: 'Dancing Script', cursive;
+}
+
+.container .nav-link.active {
+    background-color: #f1f2f1;
+    color: #009246;
+}
+
+.container h1, 
+.container a,
+.container a:hover {
+    color: #f1f2f1; 
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #78f0b23b;
+}
+
+.color {
+    color: #ce2b37;
+}
+
+#cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #009246;
+    color: #f1f2f1;
+}
+
+#cardapio .nav-link, 
+#cardapio h5,
+#eventos h3,
+#fale-conosco label,
+#fale-conosco h3,
+#fale-conosco i {
+    color: #009246;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
